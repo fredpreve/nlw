@@ -1,7 +1,10 @@
+body {
+    background-color: white;
+}
 body::after {
     content: "";
-    position: fixed;
-    background-color: white;
+    position: absolute;
+    background-color: #f0f0f5;
     top: 260px;
     right: 0;
     left: 0;
